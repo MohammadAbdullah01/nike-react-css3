@@ -5,11 +5,254 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>nike-react</title>
+
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font awesome kit  -->
+    <script src="https://kit.fontawesome.com/d377e08739.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- header starts here  -->
+    <header>
 
+        <!-- navbar starts here  -->
+        <nav class="navbar nav-parent navbar-expand-lg parent">
+
+            <a class="navbar-brand" href="#">
+                <img src="./images/icons/Logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="fas fa-bars nav-icon"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active common-clr" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link common-clr" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link common-clr" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link common-clr" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- top section starts  -->
+        <section class="parent">
+            <div class="top-sec-container w-100">
+                <div class="top-sec-right w-100 order-sm-1">
+                    <h1 class="text-uppercase common-clr top-header">
+                        <span class="orange-clr">Nike react</span> <br>
+                        infinity run 2
+                    </h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry.</p>
+                    <button class="common-btn">
+                        <span><svg style="height:24px; width:24px" xmlns="http://www.w3.org/2000/svg"
+                                class="d-inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg></span>
+                        Buy Now</button>
+                </div>
+                <div class="top-sec-left order-sm-2">
+                    <img class="banner-img" src="./images/shoes/banner-img.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <!-- main starts here  -->
+    <main>
+        <!-- shoe section  -->
+        <div id="products" class="parent">
+            <section class="casual-shoes">
+                <h2 class="text-uppercase common-clr fw-bold h1 mt-0">Casual Shoes</h2>
+                <div class="shoes">
+                    <!-- shoe one  -->
+                    <div class="shoe p-4">
+                        <div class="diff-bg">
+                            <img class="img-fluid" src="./images/shoes/img-1.png" alt="">
+                        </div>
+                        <h3 class="common-clr fw-bold">Nike Shoe</h3>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="orange-clr display-6 fw-bold">$234</span>
+                            <button class="common-btn">
+                                <span><svg style="height:24px; width:24px" xmlns="http://www.w3.org/2000/svg"
+                                        class="d-inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="shoe p-4 w-sm-75">
+                        <div class="diff-bg">
+                            <img class="img-fluid" src="./images/shoes/img-2.png" alt="">
+                        </div>
+                        <h3 class="common-clr fw-bold">Sneakers Skate Shoe </h3>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="orange-clr display-6 fw-bold">$234</span>
+                            <button class="common-btn">
+                                <span><svg style="height:24px; width:24px" xmlns="http://www.w3.org/2000/svg"
+                                        class="d-inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="shoe p-4">
+                        <div class="diff-bg">
+                            <img class="img-fluid" src="./images/shoes/img-3.png" alt="">
+                        </div>
+                        <h3 class="common-clr fw-bold">Sneakers Basketball shoe</h3>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="orange-clr display-6 fw-bold">$234</span>
+                            <button class="common-btn">
+                                <span><svg style="height:24px; width:24px" xmlns="http://www.w3.org/2000/svg"
+                                        class="d-inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="casual-shoes formal-shoes">
+                <h2 class="text-uppercase common-clr fw-bold h1 mt-0">Formal Shoes</h2>
+                <div class="shoes">
+                    <!-- shoe one  -->
+                    <div class="shoe p-4">
+                        <div class="diff-bg">
+                            <img class="img-fluid" src="./images/shoes/formal1.png" alt="">
+                        </div>
+                        <h3 class="common-clr fw-bold">Prestige High-Cut Leather </h3>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center last-item">
+                            <span class="orange-clr display-6 fw-bold">$234</span>
+                            <button class="common-btn">
+                                <span><svg style="height:24px; width:24px" xmlns="http://www.w3.org/2000/svg"
+                                        class="d-inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="shoe p-4">
+                        <div class="diff-bg">
+                            <img class="img-fluid" src="./images/shoes/formal2.png" alt="">
+                        </div>
+                        <h3 class="common-clr fw-bold">Slip-On Formal Shoe</h3>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center last-item">
+                            <span class="orange-clr display-6 fw-bold">$234</span>
+                            <button class="common-btn">
+                                <span><svg style="height:24px; width:24px" xmlns="http://www.w3.org/2000/svg"
+                                        class="d-inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="shoe p-4">
+                        <div class="diff-bg">
+                            <img class="img-fluid" src="./images/shoes/formal3.png" alt="">
+                        </div>
+                        <h3 class="common-clr fw-bold">Slip-On Formal Shoe</h3>
+                        <p class="text-muted">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="orange-clr display-6 fw-bold">$234</span>
+                            <button class="common-btn">
+                                <span><svg style="height:24px; width:24px" xmlns="http://www.w3.org/2000/svg"
+                                        class="d-inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg></span>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- footer starts here  -->
+    <footer>
+        <section class="parent mb-3">
+            <div class="box">
+                <div class="item1 px-3 py-2">
+                    <div class="item-img">
+                        <img class="img-fluid" src="./images/icons/home.png" alt="">
+                    </div>
+                    <div class="item-content ms-2">
+                        <h3 class="common-clr">Find the Perfect Fit</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo.</p>
+                    </div>
+                </div>
+                <div class="item2 px-3 py-2">
+                    <div class="item-img">
+                        <img class="img-fluid" src="./images/icons/inbox.png" alt="">
+                    </div>
+                    <div class="item-content ms-2">
+                        <h3 class="common-clr">Free Exchanges</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                            .</p>
+                    </div>
+                </div>
+                <div class="item3 px-3 py-2">
+                    <div class="item-img">
+                        <img class="img-fluid" src="./images/icons/head.png" alt="">
+                    </div>
+                    <div class="item-content ms-2">
+                        <h3 class="common-clr">Contact Our Seller</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                            .</p>
+                    </div>
+                </div>
+                <div class="item4">
+                    <img class="img-fluid" src="./images/icons/contact.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-sec bg-dark text-white py-5">
+            <p class="small text-center p-0 m-0"> &copy; all right reserved to abdulalh 2022</p>
+        </section>
+    </footer>
+
+    <!-- bootstrap link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
